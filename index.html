@@ -1,38 +1,22 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Vinylhead</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <div class="background">
-            <div class="logo-container">
-                <img src="logo.png" alt="Vinylhead logo" class="logo" />
-                <p>Dropping 2025</p>
-            </div>
-        </div>
-    </body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Your Company</title>
-        <!-- Tailwind CSS via CDN -->
+        <title>Vinylhead</title>
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
     </head>
     <body class="h-screen bg-cover bg-center bg-fixed relative" style="background-image: url('background-image2.jpg')">
         <!-- Dark overlay for the parallax background -->
         <div class="absolute inset-0 bg-black opacity-50"></div>
 
-        <!-- Centered logo -->
-        <div class="relative flex items-center justify-center h-full">
-            <!-- <img src="logo.png" alt="Your Company Logo" class="max-w-[50%] z-10" /> -->
-            <img src="logo.png" alt="Your Company Logo" class="w-200 z-10" />
+        <!-- Centered content container -->
+        <div class="z-10 flex flex-col justify-center items-center h-full space-y-4 text-white">
+            <div class="flex space-x-4 items-center">
+                <img src="logo1.png" alt="Image 1" class="w-1/2 md:w-1/4 z-10" />
+                <img src="vinylhead-text.png" alt="Image 2" class="h-auto max-w-half z-10" />
+            </div>
+            <!-- <p class="text-lg z-10">Dropping 2025</p> -->
         </div>
 
         <!-- Footer -->
