@@ -8,20 +8,17 @@
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
     </head>
-    <body class="h-screen bg-cover bg-center bg-fixed relative" style="background-image: url('background-image2.jpg')">
+    <body
+        class="h-screen bg-cover bg-center bg-fixed relative"
+        style="background-image: url('background-image2-cropped.jpeg')"
+    >
         <!-- Dark overlay for the parallax background -->
         <div class="absolute inset-0 bg-black opacity-25"></div>
 
         <div class="flex flex-col justify-center items-center h-full space-y-4 text-white">
-            <div class="flex justify-center items-center">
-                <div class="flex space-x-2 w-3/4 sm:w-2/3 md:w-1/2">
-                    <img src="logo1.png" alt="Vinylhead logo" class="w-1/6 sm:w-1/6 md:w-1/6 z-10" />
-                    <img
-                        src="vinylhead-text.png"
-                        alt="Vinylhead text"
-                        class="w-3/4 sm:w-3/4 md:w-3/4 h-auto max-w-full z-10"
-                    />
-                </div>
+            <div class="flex justify-center items-center space-x-4 max-w-xs md:max-w-sm">
+                <img src="logo1.png" alt="Vinylhead logo" class="w-1/4 h-auto z-10" />
+                <img src="vinylhead-text.png" alt="Vinylhead text" class="w-3/4 h-auto z-10" />
             </div>
         </div>
 
