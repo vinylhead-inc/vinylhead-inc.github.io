@@ -8,15 +8,19 @@
     </head>
     <body class="h-screen bg-cover bg-center bg-fixed relative" style="background-image: url('background-image2.jpg')">
         <!-- Dark overlay for the parallax background -->
-        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="absolute inset-0 bg-black opacity-25"></div>
 
-        <!-- Centered content container -->
-        <div class="z-10 flex flex-col justify-center items-center h-full space-y-4 text-white">
-            <div class="flex space-x-4 items-center">
-                <img src="logo1.png" alt="Image 1" class="w-1/2 md:w-1/4 z-10" />
-                <img src="vinylhead-text.png" alt="Image 2" class="h-auto max-w-half z-10" />
+        <div class="flex flex-col justify-center items-center h-full space-y-4 text-white">
+            <div class="flex justify-center items-center">
+                <div class="flex space-x-2 w-3/4 sm:w-2/3 md:w-1/2">
+                    <img src="logo1.png" alt="Vinylhead logo" class="w-1/6 sm:w-1/6 md:w-1/6 z-10" />
+                    <img
+                        src="vinylhead-text.png"
+                        alt="Vinylhead text"
+                        class="w-3/4 sm:w-3/4 md:w-3/4 h-auto max-w-full z-10"
+                    />
+                </div>
             </div>
-            <!-- <p class="text-lg z-10">Dropping 2025</p> -->
         </div>
 
         <!-- Footer -->
